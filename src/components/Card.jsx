@@ -1,6 +1,9 @@
 import React from "react"; 
 import './Card.css';
 import Perfil from '../../peterparker-perfil.jpg';
+import Whatsapp from '../../whatsapp-logo.png';
+import Email from '../../email-logo.png';
+import Linkedin from '../../linkedin-logo.png';
 
 function Card() {
     return (
@@ -12,17 +15,17 @@ function Card() {
                 
                 <div className="contato">
                     <a href="tel:+5519993551402" className="whatsapp">
-                        <img src="./whatsapp-logo.png" alt="WhatsApp" className="icone-botao"/>
+                        <img src={Whatsapp} alt="WhatsApp" className="icone-botao"/>
                         Entrar em contato via WhatsApp
                     </a>
                     
                     <a href="mailto:peter.parker@gmail.com" className="email">
-                        <img src="./email-logo.png" alt="E-mail" className="icone-botao"/>
+                        <img src={Email} alt="E-mail" className="icone-botao"/>
                         Entrar em contato via E-mail
                     </a>
                     
                     <a href="https://www.linkedin.com/in/peter-parker-0b16952ba/" className="linkedin" target="_blank">
-                        <img src="./linkedin-logo.png" alt="Linkedin" className="icone-botao"/>
+                        <img src={Linkedin}" alt="Linkedin" className="icone-botao"/>
                         Ver LinkedIn
                     </a>
                
