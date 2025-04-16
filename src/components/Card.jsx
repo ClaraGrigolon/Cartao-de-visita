@@ -14,7 +14,7 @@ function Card() {
                 <p>Fotojornalista <br /> Bioquímico <br /> Bioengenheiro</p>
                 
                 <div className="contato">
-                    <a href="tel:+5519993551402" className="whatsapp">
+                    <a href="tel:+5519996663917" className="whatsapp">
                         <img src={Whatsapp} alt="WhatsApp" className="icone-botao"/>
                         Entrar em contato via WhatsApp
                     </a>
