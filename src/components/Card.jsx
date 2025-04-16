@@ -1,11 +1,12 @@
 import React from "react"; 
 import './Card.css';
+import Perfil from '../../peterparker-perfil.jpg';
 
 function Card() {
     return (
         <>
             <main>
-                <img src="./peterparker-perfil.jpg" alt="foto de perfil" className="perfil"/>
+                <img src={Perfil} alt="foto de perfil" className="perfil"/>
                 <h1>Peter <br /> Parker</h1>
                 <p>Fotojornalista <br /> Bioquímico <br /> Bioengenheiro</p>
                 
