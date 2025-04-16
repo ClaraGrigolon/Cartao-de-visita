@@ -25,7 +25,7 @@ function Card() {
                     </a>
                     
                     <a href="https://www.linkedin.com/in/peter-parker-0b16952ba/" className="linkedin" target="_blank">
-                        <img src={Linkedin}" alt="Linkedin" className="icone-botao"/>
+                        <img src={Linkedin} alt="Linkedin" className="icone-botao"/>
                         Ver LinkedIn
                     </a>
                
